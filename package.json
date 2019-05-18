@@ -13,15 +13,17 @@
     "chai-as-promised": "^7.1.1",
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
+    "commander": "^2.20.0",
     "figlet": "^1.2.1",
     "ganache-cli": "^6.3.0",
     "inquirer": "^6.2.2",
     "mocha": "^5.2.0",
+    "sjcl": "^1.0.8",
     "solc": "^0.4.25",
     "truffle-hdwallet-provider": "^1.0.4",
     "web3": "^1.0.0-beta.36"
   },
   "bin": {
-    "OSS": "./index.js"
+    "TokenizeDB": "./index.js"
   }
 }

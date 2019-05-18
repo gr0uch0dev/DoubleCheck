@@ -1,7 +1,7 @@
 pragma solidity >=0.4.25 <0.6.0;
 
+// PROBLEM: SOLC does not allow for github import
 import 'https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/token/ERC721/ERC721.sol';
-
 
 contract TokenizeDB is ERC721{
 
@@ -66,8 +66,4 @@ contract TokenizeDB is ERC721{
         require(msg.sender == contractOwner,"only contract creator can do it");
         _;
     }
-
-
-
-
 }
