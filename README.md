@@ -2,3 +2,8 @@
 
 # TokenizeDB
 CLI TokenizeDB
+
+Secure your data on the Blockchain. Consistency check by using sha256
+
+TODO
+- Solve issue solc compiler with direct imports from github
