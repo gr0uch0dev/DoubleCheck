@@ -88,5 +88,12 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+#Libraries to avoid pushing
 
-TODO
+contracts/Address.sol
+contracts/ERC721.sol
+contracts/IERC721.sol
+contracts/IERC721Receiver.sol
+contracts/IERC165.sol
+contracts/SafeMath.sol
+contracts/Counters.sol
